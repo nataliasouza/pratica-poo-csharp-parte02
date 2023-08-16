@@ -1,6 +1,7 @@
 ﻿
 using CursoParte02;
-using CursoParte02.Section10.ExerciseHeritage01.Entities;
+using CursoParte02.Section10.ExerciseHeritage01;
+using CursoParte02.Section10.ExerciseHeritage02;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -9,7 +10,8 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     // PROGRAMAÇÃO ORIENTADA A OBJETOS - Seção 10
     // Capítulo: Herança e Polimorfismo
 
-    {"Seção 10 - Exercício Herança", Heritage.Executar},
+    {"Seção 10 - Exercício Herança", ExerciseAccount.Executar},
+    {"Seção 10 - Exercício Upcasting e downcasting", ExerciseUpDownCasting.Executar},
 
 
     #endregion
