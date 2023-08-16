@@ -1,4 +1,4 @@
-# Curso C# Completo - Programação Orientada a Objetos + Projetos - Parte 01
+# Curso C# Completo - Programação Orientada a Objetos + Projetos - Parte 02
 <img src="https://img.shields.io/static/v1?label=Nélio Alves&message=UDEMY&color=7159c1&style=for-the-badge"/>
 
 :spiral_calendar: Atualizado em 15 de agosto de 2023.
