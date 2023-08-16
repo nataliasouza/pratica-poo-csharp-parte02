@@ -1,11 +1,11 @@
 ﻿
 namespace CursoParte02;
 
-internal class CentralDeExercicios
+internal class ExerciseCenter
 {
     Dictionary<string, Action> Exercicios;
 
-    public CentralDeExercicios(Dictionary<string, Action> exercicios)
+    public ExerciseCenter(Dictionary<string, Action> exercicios)
     {
         Exercicios = exercicios;
     }
