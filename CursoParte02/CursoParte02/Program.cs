@@ -4,6 +4,8 @@ using CursoParte02.Section10.ExerciseHeritage01;
 using CursoParte02.Section10.ExerciseHeritage02;
 using CursoParte02.Section10.ExerciseOverlap03;
 using CursoParte02.Section10.ExerciseSealed04;
+using CursoParte02.Section10.ExercisePolymorphism05;
+
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -16,6 +18,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 10 - Exercício Upcasting e Downcasting", ExerciseUpDownCasting.Executar},
     {"Seção 10 - Exercício Sobreposição ou Sobrescrita", ExcerciseOverlap.Executar},
     {"Seção 10 - Exercício Classes e Métodos selados", ExerciseSealed.Executar},
+    {"Seção 10 - Introdução ao Polimorfismo - Exercício de Revisão", ExercisePolymorphism.Executar},
 
 
     #endregion
