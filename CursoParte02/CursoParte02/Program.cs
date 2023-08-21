@@ -9,6 +9,7 @@ using CursoParte02.Section10.ExerciseEmployeed06;
 using CursoParte02.Section10.ExerciseProduct07;
 using CursoParte02.Section10.ExerciseClassAbstract08;
 using CursoParte02.Section10.ExerciseMethodsAbstract09;
+using CursoParte02.Section10.ExerciseContributors10;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -26,6 +27,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 10 - Introdução ao Polimorfismo - Exercício Proposto", ExerciseProduct.Executar},
     {"Seção 10 - Classes Abstratas - Exercício Conta Bancária", ExerciseClassAbstract.Executar},
     {"Seção 10 - Métodos Abstratos - Exercício Calcular área das formas", ExerciseMethodsAbstract.Executar},
+    {"Seção 10 - Classes e Métodos Abstratos - Exercício Calcular imposto de contribuintes", ExerciseContributors.Executar},
 
     #endregion
 
