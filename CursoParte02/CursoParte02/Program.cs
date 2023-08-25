@@ -38,6 +38,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     // Capítulo: Tratamento e Exceções
 
     {"Seção 11 - Tratamento e Exceções - Estrutura try-catch", ExerciseTryCatch.Executar},
+    {"Seção 11 - Tratamento e Exceções - Bloco finally", ExerciseProcessFile .Executar},
 
     #endregion
 
