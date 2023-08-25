@@ -10,6 +10,7 @@ using CursoParte02.Section10.ExerciseProduct07;
 using CursoParte02.Section10.ExerciseClassAbstract08;
 using CursoParte02.Section10.ExerciseMethodsAbstract09;
 using CursoParte02.Section10.ExerciseContributors10;
+using CursoParte02.Section11;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -28,6 +29,15 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 10 - Classes Abstratas - Exercício Conta Bancária", ExerciseClassAbstract.Executar},
     {"Seção 10 - Métodos Abstratos - Exercício Calcular área das formas", ExerciseMethodsAbstract.Executar},
     {"Seção 10 - Classes e Métodos Abstratos - Exercício Calcular imposto de contribuintes", ExerciseContributors.Executar},
+
+    #endregion
+
+    #region "Seção 11 Tratamento e Exceções"
+
+    // PROGRAMAÇÃO ORIENTADA A OBJETOS - Seção 11
+    // Capítulo: Tratamento e Exceções
+
+    {"Seção 11 - Tratamento e Exceções - Estrutura try-catch", ExerciseTryCatch.Executar},
 
     #endregion
 
