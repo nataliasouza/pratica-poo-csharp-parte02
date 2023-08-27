@@ -11,6 +11,7 @@ using CursoParte02.Section10.ExerciseClassAbstract08;
 using CursoParte02.Section10.ExerciseMethodsAbstract09;
 using CursoParte02.Section10.ExerciseContributors10;
 using CursoParte02.Section11;
+using CursoParte02.Section11.Parte01;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -39,6 +40,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
 
     {"Seção 11 - Tratamento e Exceções - Estrutura try-catch", ExerciseTryCatch.Executar},
     {"Seção 11 - Tratamento e Exceções - Bloco finally", ExerciseProcessFile .Executar},
+    {"Seção 11 - Criando exceções personalizadas - Solução 1 (muito ruim) - Parte 01", ExerciseExceptions01.Executar},
 
     #endregion
 
