@@ -37,7 +37,7 @@ internal class ExerciseExceptions02
 
             if (error != null)
             {
-                Console.WriteLine();
+                Console.WriteLine("Error: " + error);
             }
             else
             {
