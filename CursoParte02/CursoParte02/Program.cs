@@ -13,6 +13,7 @@ using CursoParte02.Section10.ExerciseContributors10;
 using CursoParte02.Section11;
 using CursoParte02.Section11.Parte01;
 using CursoParte02.Section11.Parte02;
+using CursoParte02.Section11.Parte03;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -43,6 +44,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 11 - Tratamento e Exceções - Bloco finally", ExerciseProcessFile .Executar},
     {"Seção 11 - Criando exceções personalizadas - Solução 1 (muito ruim) - Parte 01", ExerciseExceptions01.Executar},
     {"Seção 11 - Criando exceções personalizadas - Solução 2 (ruim) - Parte 02", ExerciseExceptions02.Executar},
+    {"Seção 11 - Criando exceções personalizadas - Solução 3 (melhor) - Parte 03", ExerciseExceptions03.Executar}
 
     #endregion
 
