@@ -15,6 +15,7 @@ using CursoParte02.Section11.Parte01;
 using CursoParte02.Section11.Parte02;
 using CursoParte02.Section11.Parte03;
 using CursoParte02.Section11.FixationExercise;
+using CursoParte02.Section12;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -46,7 +47,13 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 11 - Criando exceções personalizadas - Solução 1 (muito ruim) - Parte 01", ExerciseExceptions01.Executar},
     {"Seção 11 - Criando exceções personalizadas - Solução 2 (ruim) - Parte 02", ExerciseExceptions02.Executar},
     {"Seção 11 - Criando exceções personalizadas - Solução 3 (melhor) - Parte 03", ExerciseExceptions03.Executar},
-    {"Seção 11 - Exercício de Fixação - Conta Bancária", ExerciseBankAccount.Executar}
+    {"Seção 11 - Exercício de Fixação - Conta Bancária", ExerciseBankAccount.Executar},
+
+    #endregion
+
+    #region "Seção 12 - Projeto: Sistema de Jogo de Xadrez"
+
+    {"Seção 12 - Sistema de Jogo de Xadrez", ChessGame.Executar},
 
     #endregion
 
