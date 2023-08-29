@@ -1,7 +1,7 @@
 # Curso C# Completo - Programação Orientada a Objetos + Projetos - Parte 02
 <img src="https://img.shields.io/static/v1?label=Nélio Alves&message=UDEMY&color=7159c1&style=for-the-badge"/>
 
-:spiral_calendar: Atualizado em 15 de agosto de 2023.
+:spiral_calendar: Atualizado em 28 de agosto de 2023.
 
 ⚠️ Seção 01 até 09 está concluído! (Parte 01).⚠️<br>
 :construction: Seção 10 até 17 está em construção (Parte 02).:construction:<br>
@@ -63,7 +63,7 @@ Seção 10. Herança e Polimorfismo.
 
 Seção 11. Tratamento de Exceções.
 
-Seção 12. Projeto: Sistema de Jogo de Xadrez.
+Seção 12. Projeto: Sistema de Jogo de Xadrez. :construction: Em desenvolvimento :construction:
 
 Seção 13. Trabalhando com arquivos.
 
