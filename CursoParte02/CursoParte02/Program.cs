@@ -16,6 +16,7 @@ using CursoParte02.Section11.Parte02;
 using CursoParte02.Section11.Parte03;
 using CursoParte02.Section11.FixationExercise;
 using CursoParte02.Section12;
+using CursoParte02.Section13;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -54,6 +55,13 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     #region "Seção 12 - Projeto: Sistema de Jogo de Xadrez"
 
     {"Seção 12 - Sistema de Jogo de Xadrez", ChessGame.Executar},
+
+    #endregion
+
+ 
+    #region "Seção 13 - Trabalhando com Arquivos"
+
+    {"Seção 13 - Trabalhando com Arquivos - File, FileInfo, IOException", ExerciseFile.Executar},
 
     #endregion
 
