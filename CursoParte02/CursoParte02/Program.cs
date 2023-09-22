@@ -66,6 +66,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 13 - Trabalhando com Arquivos - Using Block", ExerciseFile03.Executar},
     {"Seção 13 - Trabalhando com Arquivos - StreamWriter", ExerciseFile04.Executar},
     {"Seção 13 - Trabalhando com Arquivos - Directory - DirectoryInfo", ExerciseDirectory.Executar},
+    {"Seção 13 - Trabalhando com Arquivos - Path", ExercisePath.Executar},
 
     #endregion
 
