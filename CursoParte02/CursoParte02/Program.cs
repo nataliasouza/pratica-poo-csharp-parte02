@@ -17,6 +17,7 @@ using CursoParte02.Section11.Parte03;
 using CursoParte02.Section11.FixationExercise;
 using CursoParte02.Section12;
 using CursoParte02.Section13;
+using CursoParte02.Section13.Challenge;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -67,6 +68,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 13 - Trabalhando com Arquivos - StreamWriter", ExerciseFile04.Executar},
     {"Seção 13 - Trabalhando com Arquivos - Directory - DirectoryInfo", ExerciseDirectory.Executar},
     {"Seção 13 - Trabalhando com Arquivos - Path", ExercisePath.Executar},
+    {"Seção 13 - Trabalhando com Arquivos - Desafio", ExerciseFile05.Executar},
 
     #endregion
 
