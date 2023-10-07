@@ -13,12 +13,9 @@
 //Marta Blue
 //Alex Brown
 
-using System.Collections.Immutable;
-using System.Linq;
-
 namespace CursoParte02.Section14.ExerciseInterfaceIComparable;
 
-internal class ExerciseIComparable
+internal class Exercise01
 {
     public static void Executar() 
     {
