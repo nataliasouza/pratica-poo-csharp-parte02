@@ -23,6 +23,7 @@ using CursoParte02.Section14.ExerciseWithInterface;
 using CursoParte02.Section14.FixingExerciseInterface;
 using CursoParte02.Section14.ExerciseInterface;
 using CursoParte02.Section14.ExerciseMultipleInheritance;
+using CursoParte02.Section14.ExerciseInterfaceIComparable;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -83,6 +84,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 14 - Exercício para Fixação - Interface", FixingExerciseInterface.Executar},
     {"Seção 14 - Exercício 209 - Herdar vs cumprir contrato", ExerciseInterface.Executar},
     {"Seção 14 - Exercício 210 - Herança Múltipla", MultipleInheritance.Executar},
+    {"Seção 14 - Exercício 211 - Interface IComparable - versão utilizando array", ExerciseIComparable.Executar},
   
     #endregion
 
