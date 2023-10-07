@@ -84,7 +84,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 14 - Exercício para Fixação - Interface", FixingExerciseInterface.Executar},
     {"Seção 14 - Exercício 209 - Herdar vs cumprir contrato", ExerciseInterface.Executar},
     {"Seção 14 - Exercício 210 - Herança Múltipla", MultipleInheritance.Executar},
-    {"Seção 14 - Exercício 211 - Interface IComparable - versão utilizando array", ExerciseIComparable.Executar},
+    {"Seção 14 - Exercício 211 - Interface IComparable - versão utilizando array e File Info", ExerciseIComparable.Executar},
   
     #endregion
 
