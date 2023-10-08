@@ -25,6 +25,7 @@ using CursoParte02.Section14.ExerciseInterface;
 using CursoParte02.Section14.ExerciseMultipleInheritance;
 using CursoParte02.Section14.ExerciseInterfaceIComparable;
 using CursoParte02.Section14.Exercises;
+using CursoParte02.Section14.Exercises.ExerciseIComparable;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -87,6 +88,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 14 - Exercício 210 - Herança Múltipla", MultipleInheritance.Executar},
     {"Seção 14 - Exercício 211 - versão utilizando array e File Info", Exercise01.Executar},
     {"Seção 14 - Exercício 211 - versão utilizando List e StreamReader", Exercise02.Executar},
+    {"Seção 14 - Exercício 212 - Interface IComparable", ExerciseIComparable.Executar},
   
     #endregion
 
