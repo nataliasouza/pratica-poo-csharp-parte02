@@ -20,7 +20,7 @@ https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/
 <details>
   <summary> <b> Parte 1 - Seção 01 até 09 </b> <i>(clique na setinha!)</i> - 83 Exercícios </summary><br>
 
-*Repositório Parte 2 - Branch master*
+*Repositório Parte 1 - Branch master*
 
 ```bash
 https://github.com/nataliasouza/pratica-poo-csharp
