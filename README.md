@@ -1,7 +1,7 @@
 # Curso C# Completo - Programação Orientada a Objetos + Projetos - Parte 02
 <img src="https://img.shields.io/static/v1?label=Nélio Alves&message=UDEMY&color=7159c1&style=for-the-badge"/>
 
-:spiral_calendar: Atualizado em 02 de Setembro de 2023.
+:spiral_calendar: Atualizado em 08 de Outubro de 2023.
 
 ⚠️ Seção 01 até 09 está concluído! (Parte 01).⚠️<br>
 :construction: Seção 10 até 17 está em construção (Parte 02).:construction:<br>
@@ -72,11 +72,11 @@ https://github.com/nataliasouza/chess-game
 ```
 <br>
 
-Seção 13. Trabalhando com arquivos.  :construction: Em desenvolvimento :construction:
+Seção 13. Trabalhando com arquivos.  
 
 Seção 14. Interfaces.
 
-Seção 15. Generics, Set, Dictionary.
+Seção 15. Generics, Set, Dictionary. :construction: Em desenvolvimento :construction:
 
 Seção 16. Tópicos especiais em C# - Parte 2.
 
