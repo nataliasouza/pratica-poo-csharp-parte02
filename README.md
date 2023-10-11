@@ -91,10 +91,10 @@ Seção 17. Expressões Lambda, Delegates, LINQ.
 
 Seção 18. Projeto: Sistema Web com ASP .NET Core MVC e EF.
 
-*Repositório Parte 3 - Branch master* (A ser criado!)
+*Repositório Parte 3 - Branch master* (Em Andamento)
 
 ```bash
-https://github.com/nataliasouza/
+https://github.com/nataliasouza/mysalles
 ```
 <br>
 
