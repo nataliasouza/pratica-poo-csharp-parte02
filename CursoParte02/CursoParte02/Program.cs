@@ -26,7 +26,8 @@ using CursoParte02.Section14.ExerciseMultipleInheritance;
 using CursoParte02.Section14.ExerciseInterfaceIComparable;
 using CursoParte02.Section14.Exercises;
 using CursoParte02.Section14.Exercises.ExerciseIComparable;
-using CursoParte02.Section15;
+using CursoParte02.Section15.ExerciseGenerics;
+using CursoParte02.Section15.ExerciseRestrictionGenerics;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -95,8 +96,8 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
 
     #region "Seção 15 - Generics, Set, Dictionary"
 
-    {"Seção 15 - Problema Exemplo - Solução sem o uso de interface", ExercisePrintService.Executar},
-   
+    {"Seção 15 - Exercício Generics - Parte 1 e 2 - Aula 213 e 2014", ExercisePrintService.Executar},
+    {"Seção 15 - Exercício Generics - Restrições de Generics - Aula 215", RestrictionGenerics.Executar},   
   
     #endregion
 

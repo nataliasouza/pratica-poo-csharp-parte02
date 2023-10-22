@@ -1,5 +1,4 @@
-﻿
-namespace CursoParte02.Section15
+﻿namespace CursoParte02.Section15.ExerciseGenerics
 {
     internal class ExercisePrintService
     {
@@ -12,7 +11,7 @@ namespace CursoParte02.Section15
 
             for (int i = 0; i < quantityOfNumbers; i++)
             {
-                Console.Write($"Digite o {i+1} número: ");
+                Console.Write($"Digite o {i + 1} número: ");
                 int number = int.Parse(Console.ReadLine());
                 printService.AddValue(number);
             }

@@ -4,7 +4,7 @@
 //e depois imprima esses números de forma organizada conformeexemplo. Em seguida, informar
 //qual foi o primeiro valor informado
 
-namespace CursoParte02.Section15
+namespace CursoParte02.Section15.ExerciseGenerics
 {
     internal class PrintService<T>
     {
@@ -13,9 +13,9 @@ namespace CursoParte02.Section15
 
         public void AddValue(T value)
         {
-            if(_count == 10)
+            if (_count == 10)
             {
-                throw new InvalidOperationException("PrintService is full");
+                throw new InvalidOperationException("Não é possível adicionar mais elementos");
             }
             _values[_count] = value;
             _count++;
@@ -23,24 +23,24 @@ namespace CursoParte02.Section15
 
         public T FirstElement()
         {
-           if (_count == 0)
+            if (_count == 0)
             {
-                throw new InvalidOperationException("PrintService is empty");
+                throw new InvalidOperationException("Não existe elemento! ");
             }
 
-           return _values[0];
+            return _values[0];
         }
 
         public void PrintElements()
         {
             Console.Write("[");
-           
-            for(int i = 0; i < _count -1; i++)
+
+            for (int i = 0; i < _count - 1; i++)
             {
                 Console.Write(_values[i] + ", ");
             }
 
-            if(_count > 0)
+            if (_count > 0)
             {
                 Console.Write(_values[_count - 1]);
             }
