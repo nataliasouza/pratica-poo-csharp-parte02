@@ -25,10 +25,10 @@ namespace CursoParte02.Section15.ExerciseRestrictionGenerics
 
             CalculationService calculationService = new CalculationService();
 
-            Product biggestPrice = calculationService.Max(listOfProducts);
+            Product biggestPrice = calculationService.BiggestPrice(listOfProducts);
 
-            Console.WriteLine("\nMax: ");
-            Console.WriteLine(biggestPrice);
+            Console.WriteLine("\nProduto mais caro: \n\n\t\t" + biggestPrice);
+           
         }     
     }
 }

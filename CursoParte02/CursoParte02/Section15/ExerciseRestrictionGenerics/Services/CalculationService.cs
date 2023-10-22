@@ -2,7 +2,7 @@
 {
     internal class CalculationService
     {
-        public T Max<T>(List<T> list) where T : IComparable
+        public T BiggestPrice<T>(List<T> list) where T : IComparable
         {
             if (list.Count == 0)
             {
