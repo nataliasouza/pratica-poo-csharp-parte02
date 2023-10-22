@@ -26,6 +26,7 @@ using CursoParte02.Section14.ExerciseMultipleInheritance;
 using CursoParte02.Section14.ExerciseInterfaceIComparable;
 using CursoParte02.Section14.Exercises;
 using CursoParte02.Section14.Exercises.ExerciseIComparable;
+using CursoParte02.Section15;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -89,6 +90,13 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 14 - Exercício 211 - versão utilizando array e File Info", Exercise01.Executar},
     {"Seção 14 - Exercício 211 - versão utilizando List e StreamReader", Exercise02.Executar},
     {"Seção 14 - Exercício 212 - Interface IComparable", ExerciseIComparable.Executar},
+  
+    #endregion
+
+    #region "Seção 15 - Generics, Set, Dictionary"
+
+    {"Seção 15 - Problema Exemplo - Solução sem o uso de interface", ExercisePrintService.Executar},
+   
   
     #endregion
 
