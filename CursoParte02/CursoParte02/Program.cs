@@ -28,6 +28,7 @@ using CursoParte02.Section14.Exercises;
 using CursoParte02.Section14.Exercises.ExerciseIComparable;
 using CursoParte02.Section15.ExerciseGenerics;
 using CursoParte02.Section15.ExerciseRestrictionGenerics;
+using CursoParte02.Section15.ExerciseGetHashCodeEquals;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -98,6 +99,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
 
     {"Seção 15 - Exercício Generics - Parte 1 e 2 - Aula 213 e 2014", ExercisePrintService.Executar},
     {"Seção 15 - Exercício Generics - Restrições de Generics - Aula 215", RestrictionGenerics.Executar},   
+    {"Seção 15 - Exercício GetHashCode e Equals - Aula 216", ExerciseGetHashCode.Executar},   
   
     #endregion
 
