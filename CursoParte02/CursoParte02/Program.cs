@@ -101,7 +101,8 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 15 - Exercício Generics - Parte 1 e 2 - Aula 213 e 2014", ExercisePrintService.Executar},
     {"Seção 15 - Exercício Generics - Restrições de Generics - Aula 215", RestrictionGenerics.Executar},   
     {"Seção 15 - Exercício GetHashCode e Equals - Aula 216", ExerciseGetHashCode.Executar},   
-    {"Seção 15 - Exercício Conjuntos - HashSet e SortedSet Parte 1 - Aula 217", ExerciseHashSet.Executar},   
+    {"Seção 15 - Exercício Conjuntos - HashSet Parte 1 - Aula 217", ExerciseHashSet.Executar},   
+    {"Seção 15 - Exercício Conjuntos - SortedSet Parte 2 - Aula 218", ExerciseSortedSet.Executar},   
   
     #endregion
 
