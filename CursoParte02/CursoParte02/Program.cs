@@ -30,6 +30,7 @@ using CursoParte02.Section15.ExerciseGenerics;
 using CursoParte02.Section15.ExerciseRestrictionGenerics;
 using CursoParte02.Section15.ExerciseGetHashCodeEquals;
 using CursoParte02.Section15.ExerciseSet;
+using CursoParte02.Section15.ExerciseHashSet;
 
 var central = new ExerciseCenter(new Dictionary<string, Action>()
 {
@@ -103,6 +104,7 @@ var central = new ExerciseCenter(new Dictionary<string, Action>()
     {"Seção 15 - Exercício GetHashCode e Equals - Aula 216", ExerciseGetHashCode.Executar},   
     {"Seção 15 - Exercício Conjuntos - HashSet Parte 1 - Aula 217", ExerciseHashSet.Executar},   
     {"Seção 15 - Exercício Conjuntos - SortedSet Parte 2 - Aula 218", ExerciseSortedSet.Executar},   
+    {"Seção 15 - Como coleções hash comparam igualdade - Aula 219", ExerciseCompareEquality.Executar},   
   
     #endregion
 
